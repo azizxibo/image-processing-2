@@ -13,7 +13,7 @@ def save_as_pdf(image):
     return buf
 
 def main():
-    st.title("Background Remover App")
+    st.title("VIDIBEB-WEB")
     st.write("Upload an image, remove its background, and download it in your preferred format!")
 
     uploaded_file = st.file_uploader("Upload an Image", type=["png", "jpg", "jpeg"])
